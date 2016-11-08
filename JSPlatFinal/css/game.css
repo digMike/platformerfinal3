@@ -1,0 +1,30 @@
+.background    { background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/04/Stars-wallpapers-HD-backgrounds-download.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(0, 255, 0); }
+.wall          { background: white;   }
+.enemy		   { background: rgb(255, 100, 100); }
+.speedboost    { background: rgb(255,0,255); }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(0,191,255); }
+.player { background: rgb(255,127,80); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+   max-height: 450px;
+    position: relative;
+  }
+ +
+ +.lost .player {
+ +  background: rgb(160, 64, 64);
+ +}
+ +.won .player {
+ +  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+ +}
